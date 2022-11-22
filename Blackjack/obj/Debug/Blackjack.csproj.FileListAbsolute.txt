@@ -1,0 +1,8 @@
+C:\Users\matty\source\repos\Blackjack\Blackjack\bin\Debug\Blackjack.exe.config
+C:\Users\matty\source\repos\Blackjack\Blackjack\bin\Debug\Blackjack.exe
+C:\Users\matty\source\repos\Blackjack\Blackjack\bin\Debug\Blackjack.pdb
+C:\Users\matty\source\repos\Blackjack\Blackjack\obj\Debug\Blackjack.csproj.AssemblyReference.cache
+C:\Users\matty\source\repos\Blackjack\Blackjack\obj\Debug\Blackjack.csproj.SuggestedBindingRedirects.cache
+C:\Users\matty\source\repos\Blackjack\Blackjack\obj\Debug\Blackjack.csproj.CoreCompileInputs.cache
+C:\Users\matty\source\repos\Blackjack\Blackjack\obj\Debug\Blackjack.exe
+C:\Users\matty\source\repos\Blackjack\Blackjack\obj\Debug\Blackjack.pdb
