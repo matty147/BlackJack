@@ -69,7 +69,7 @@ namespace Blackjack
                     Console.WriteLine("Hit, Stand");
 
                     string Option = Console.ReadLine();
-                    if (Option == "Hit" || Option == "hit" || Option == "HIT")
+                    if (Option == "Hit" || Option == "hit" || Option == "HIT" || Option == "H" || Option == "h")
                     {
                         Console.WriteLine("Your extra card: ");
                         Card = rnd.Next(1, 11);
@@ -84,7 +84,7 @@ namespace Blackjack
                         }
                     }
                     else
-                    if (Option == "Stand" || Option == "stand" || Option == "STAND")
+                    if (Option == "Stand" || Option == "stand" || Option == "STAND" || Option == "s" || Option == "S")
                     {
                         Options = 1;
                         Console.WriteLine(" ");
@@ -153,6 +153,12 @@ namespace Blackjack
                     if (Option2 == "Yes" || Option2 == "Y" || Option2 == "y")
                     {
                         Options = 0;
+                        if (YMoney <= 0)
+                        {
+                            Exit = 1;
+                            Console.WriteLine("You don't have any money");
+                            Console.ReadKey();
+                        }
                     }
                     else
                     if (Option2 == "No" || Option2 == "N" || Option2 == "n")
@@ -171,12 +177,6 @@ namespace Blackjack
                 Console.WriteLine("");
                 Console.WriteLine("-----------------------");
                 Console.WriteLine("");
-                if (YMoney <= 0)
-                {
-                    Exit = 1;
-                    Console.WriteLine("You don't have any money");
-                    Console.ReadKey();
-                }
             }
         }
     }
